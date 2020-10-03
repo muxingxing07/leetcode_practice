@@ -1,4 +1,4 @@
-##难点在于去除重复解，排序+双指针
+##主要难点在于去除重复解，排序+双指针
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
