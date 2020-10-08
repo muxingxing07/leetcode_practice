@@ -5,7 +5,7 @@ class Solution:
             if nums.count(i)==1:
                 return i
 
-#位运算：异或运算
+##位运算：异或运算
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         return reduce(lambda x, y: x ^ y, nums)
